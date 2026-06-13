@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="AS Technologies Limited - Kenya's trusted professional system & development company. Delivering good services: custom systems, websites, mobile apps, IT consulting & software customization. Attract success with our expertise.">
+    <meta name="author" content="AS Technologies Limited">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>AS Technologies Ltd | Professional System & Development Company | Good Services That Attract</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    
+    <style>
+        /* Custom tweaks for Kenyan shillings and Eldoret branding */
+        .ksh-price {
+            font-weight: 700;
+            color: #2d3e50;
+        }
+        .kenya-flag {
+            margin-right: 5px;
+        }
+        .stats-section .fact-item {
+            background: rgba(0,0,0,0.03);
+            border-radius: 20px;
+            padding: 20px 10px;
+            transition: 0.3s;
+        }
+        .stats-section .fact-item:hover {
+            background: rgba(0,136,255,0.05);
+        }
+        .testimonial-item {
+            background: #fff;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            margin: 15px;
+            text-align: center;
+        }
+        .testimonial-item p {
+            font-style: italic;
+        }
+        .badge-eldoret {
+            background: #0088ff;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 30px;
+            font-size: 13px;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        /* New: Good Services & Professionalism badges */
+        .service-quality-badge {
+            background: linear-gradient(135deg, #0088ff, #2c3e9e);
+            color: #fff;
+            border-radius: 40px;
+            padding: 8px 20px;
+            font-weight: 600;
+            font-size: 14px;
+            display: inline-block;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+        .good-service-card {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 20px 35px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            height: 100%;
+            border-bottom: 3px solid #0088ff;
+        }
+        .good-service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 40px rgba(0,136,255,0.12);
+        }
+        .good-service-card i {
+            font-size: 48px;
+            color: #0088ff;
+            margin-bottom: 20px;
+        }
+        .good-service-card h4 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .promise-section {
+            background: linear-gradient(110deg, #f8faff 0%, #ffffff 100%);
+            border-radius: 40px;
+            padding: 50px 30px;
+            margin: 40px 0;
+        }
+        .attract-people-text {
+            font-size: 18px;
+            color: #1e2a3e;
+            font-weight: 500;
+        }
+        /* New style for visible highlight banners */
+        .visible-highlight {
+            background: linear-gradient(95deg, #0a2540 0%, #1f4e7a 100%);
+            padding: 25px 20px;
+            border-radius: 60px;
+            text-align: center;
+            margin: 30px 0 20px;
+            box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+        }
+        .visible-highlight h3 {
+            color: #fff;
+            font-weight: 800;
+            letter-spacing: 2px;
+            font-size: 2.2rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        .visible-highlight p {
+            color: #ffdd99;
+            font-weight: 600;
+            margin: 10px 0 0;
+            font-size: 1rem;
+        }
+        .ast-mono-logo {
+            font-family: 'Poppins', monospace;
+            font-weight: 800;
+            font-size: 3rem;
+            background: linear-gradient(145deg, #ffbb44, #ff9933);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            letter-spacing: 4px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .contact-labels label {
+            font-weight: 600;
+            margin-bottom: 5px;
+            display: block;
+            color: #1e2a3e;
+        }
+        .contact-labels input, .contact-labels select {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 12px;
+            border-radius: 30px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- Logo with Kenya vibe -->
+                        <a href="#top" class="logo" style="font-size: 28px; font-weight: 700; background: linear-gradient(105deg, #0088ff 0%, #3c00ff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                            AS<span style="color:#fff; -webkit-text-fill-color: #fff;">Technologies</span>
+                        </a>
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#services">Services</a></li>
+                            <li class="scroll-to-section"><a href="#why-good">Why Us</a></li>
+                            <li class="scroll-to-section"><a href="#about">About</a></li>
+                            <li class="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
+                            <li class="scroll-to-section"><a href="#testimonials">Reviews</a></li>
+                            <li class="scroll-to-section"><a href="#contact">Contact</a></li>
+                            <li class="scroll-to-section"><div class="main-red-button-hover"><a href="#contact">Get Quote (KSH)</a></div></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- Hero Banner - Professional System & Development Company -->
+    <div class="main-banner" id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6 align-self-center">
+                            <div class="owl-carousel owl-banner">
+                                <div class="item header-text">
+                                    <h6>🏆 Professional System & Development Company | Eldoret, Kenya</h6>
+                                    <h2><em>Good Services</em> That Attract & <span>Transform Businesses</span></h2>
+                                    <p>We engineer robust systems, custom websites, mobile apps, and IT solutions with a relentless commitment to quality. Our professional approach ensures your digital success — on time and within budget.</p>
+                                    <div class="down-buttons">
+                                        <div class="main-blue-button-hover">
+                                            <a href="#portfolio">See Our Built Systems</a>
+                                        </div>
+                                        <div class="call-button">
+                                            <a href="#contact"><i class="fa fa-phone"></i> +254 741640332</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item header-text">
+                                    <h6>✨ Quality-Driven Development</h6>
+                                    <h2><em>Professional</em> System Engineering & <span>Software Customization</span></h2>
+                                    <p>From enterprise ERPs to sleek websites, we blend innovation with proven methodologies. Good services mean we listen, adapt, and deliver excellence — making us the partner of choice in East Africa.</p>
+                                    <div class="down-buttons">
+                                        <div class="main-blue-button-hover">
+                                            <a href="#services">Explore Good Services</a>
+                                        </div>
+                                        <div class="call-button">
+                                            <a href="#contact"><i class="fa fa-phone"></i> +254 741640332</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item header-text">
+                                    <h6>🚀 Already Built: Flagship ERP System</h6>
+                                    <h2>Enterprise-Grade <em>System Ready</em> — <span>Customizable for You</span></h2>
+                                    <p>Our flagship system (ERP + Inventory) is production-proven. Deploy faster, reduce costs, and benefit from a professional system designed to scale with your ambitions. Attract more clients with stellar operations.</p>
+                                    <div class="down-buttons">
+                                        <div class="main-blue-button-hover">
+                                            <a href="#portfolio">View System Demo</a>
+                                        </div>
+                                        <div class="call-button">
+                                            <a href="#contact">Request Live Demo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- VISIBLE HIGHLIGHT: GOOD SERVICES | PROFESSIONAL DELIVERY (as per image) -->
+    <div class="container">
+        <div class="visible-highlight">
+            <h3>⭐ GOOD SERVICES | PROFESSIONAL DELIVERY ⭐</h3>
+            <p>Reliability • Excellence • Client-first approach</p>
+        </div>
+    </div>
+
+    <!-- SERVICES SECTION with expanded 'good services' emphasis -->
+    <div id="services" class="our-services section">
+        <div class="services-right-dec"><img src="assets/images/services-right-dec.png" alt=""></div>
+        <div class="container">
+            <div class="services-left-dec"><img src="assets/images/services-left-dec.png" alt=""></div>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <span class="service-quality-badge">⭐ Our Core Offerings ⭐</span>
+                        <h2>Our <em>Professional Solutions</em> & <span>Attractive Services</span></h2>
+                        <p class="attract-people-text">We provide high-quality system development and digital services that help your business grow and attract more customers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-services">
+                        <div class="item"><h4>Custom System Dev</h4><div class="icon"><img src="assets/images/service-icon-01.png" alt="system"></div><p>ERPs, CRMs, logistics — built with robust architecture & ongoing support. Good service guaranteed.</p></div>
+                        <div class="item"><h4>Website Development</h4><div class="icon"><img src="assets/images/service-icon-02.png" alt="web"></div><p>Modern, responsive, SEO-optimized websites that attract leads and convert visitors.</p></div>
+                        <div class="item"><h4>Mobile App Development</h4><div class="icon"><img src="assets/images/service-icon-03.png" alt="mobile"></div><p>Native & cross-platform apps (Flutter, React Native) that deliver smooth user experiences.</p></div>
+                        <div class="item"><h4>Existing Service Customization</h4><div class="icon"><img src="assets/images/service-icon-04.png" alt="custom"></div><p>We upgrade, integrate, and tailor your current software for better performance & usability.</p></div>
+                        <div class="item"><h4>IT Consulting</h4><div class="icon"><img src="assets/images/service-icon-01.png" alt="consult"></div><p>Strategic tech advice, cloud migration, digital transformation — professional expertise.</p></div>
+                        <div class="item"><h4>Quality Assurance</h4><div class="icon"><img src="assets/images/service-icon-02.png" alt="qa"></div><p>Rigorous testing, security audits, and maintenance to ensure 100% uptime.</p></div>
+                        <div class="item"><h4>Startup MVP</h4><div class="icon"><img src="assets/images/service-icon-03.png" alt="startup"></div><p>From concept to launch in weeks. Fast, lean, and built to attract early adopters.</p></div>
+                        <div class="item"><h4>Legacy Modernization</h4><div class="icon"><img src="assets/images/service-icon-04.png" alt="legacy"></div><p>Bring old systems into modern stacks with minimal disruption.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ASTECMNOLOGIIES - Special brand mark (visible as per image) -->
+    <div class="container">
+        <div class="ast-mono-logo">
+            ASTECMNOLOGIIES
+        </div>
+        <p class="text-center" style="font-weight:500; margin-top:-15px;">— Innovative Systems, Better Future —</p>
+    </div>
+
+    <!-- WHY GOOD SERVICES SECTION -->
+    <div id="why-good" class="container" style="margin-top: 20px;">
+        <div class="promise-section">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <span class="service-quality-badge" style="background: #1e2a3e;">Why AS Technologies Ltd?</span>
+                    <h2 style="font-weight: 700; margin-bottom: 30px;">We Are a <em>Professional System & Development Company</em> That <span style="color:#0088ff;">Attracts Success</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="good-service-card">
+                        <i class="fa fa-star"></i>
+                        <h4>Quality-First Approach</h4>
+                        <p>Every line of code follows best practices. We deliver systems that are secure, scalable, and maintainable — because good services start with craftsmanship.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="good-service-card">
+                        <i class="fa fa-users"></i>
+                        <h4>Client-Centric Team</h4>
+                        <p>We listen, collaborate, and adapt. Our professional company culture ensures you feel supported at every stage — from ideation to deployment and beyond.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="good-service-card">
+                        <i class="fa fa-clock-o"></i>
+                        <h4>On-Time Delivery</h4>
+                        <p>We respect deadlines and budgets. Agile processes keep projects moving, so you can start attracting value as soon as possible.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="good-service-card">
+                        <i class="fa fa-headphones"></i>
+                        <h4>Dedicated Support</h4>
+                        <p>Post-launch care, training, and continuous improvement. Our good service doesn't end at handover — we stay with you for the long haul.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 text-center">
+                <div class="col-12">
+                    <p class="attract-people-text" style="font-size: 1.1rem;">⭐ 98% client retention | 120+ successful projects | Trusted by Kenyan enterprises & startups ⭐</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About + Stats -->
+    <div id="about" class="about-us section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center">
+                    <div class="left-image">
+                        <img src="assets/images/about-left-image.png" alt="AS Technologies team in Eldoret">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h2>AS Technologies Ltd — <em>Professional System & Development</em> Company Based in <span>Eldoret, Kenya</span></h2>
+                        <p>We are not just developers; we are your technology partners. Our mission is to deliver <strong>good services</strong> that empower businesses to thrive. From our flagship ERP system (already built and ready) to custom web and mobile solutions, we combine deep technical expertise with a genuine understanding of local and regional markets. Whether you need a complex enterprise system or want to customize existing software, our professional team ensures excellence, transparency, and results that attract customers.</p>
+                        <div class="row stats-section">
+                            <div class="col-lg-4">
+                                <div class="fact-item">
+                                    <div class="count-area-content">
+                                        <div class="icon"><img src="assets/images/service-icon-01.png" alt=""></div>
+                                        <div class="count-digit">30+</div>
+                                        <div class="count-title">Custom Systems</div>
+                                        <p>Deployed in Kenya & beyond</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="fact-item">
+                                    <div class="count-area-content">
+                                        <div class="icon"><img src="assets/images/service-icon-02.png" alt=""></div>
+                                        <div class="count-digit">70+</div>
+                                        <div class="count-title">Websites & Apps</div>
+                                        <p>Live & generating ROI</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="fact-item">
+                                    <div class="count-area-content">
+                                        <div class="icon"><img src="assets/images/service-icon-03.png" alt=""></div>
+                                        <div class="count-digit">98%</div>
+                                        <div class="count-title">Client Retention</div>
+                                        <p>Trusted by local businesses</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="badge-eldoret">📍 Head Office: Eldoret, Kenya (Oloo Street) | Professional service guaranteed</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO with exact headline: Built & Ready PORTFOLIO THAT ATTRACTS CONFIDENCE -->
+    <div id="portfolio" class="our-portfolio section">
+        <div class="portfolio-left-dec"><img src="assets/images/portfolio-left-dec.png" alt=""></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Built & Ready <em>PORTFOLIO THAT ATTRACTS</em> <span>CONFIDENCE</span></h2>
+                        <span>Flagship systems & success stories</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-portfolio">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/images/portfolio-01.jpg" alt="AS Enterprise System">
+                                <div class="hover-effect">
+                                    <div class="inner-content">
+                                        <a href="#"><h4>AS Enterprise Suite (ERP)</h4></a>
+                                        <span>⭐ Flagship system: Inventory, HR, Finance modules. Demo available — professional & good service.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/images/portfolio-02.jpg" alt="Mobile Banking App">
+                                <div class="hover-effect">
+                                    <div class="inner-content">
+                                        <a href="#"><h4>Mobile Sacco App</h4></a>
+                                        <span>React Native • Secure • Eldoret based client, increased engagement by 45%.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/images/portfolio-03.jpg" alt="Health System">
+                                <div class="hover-effect">
+                                    <div class="inner-content">
+                                        <a href="#"><h4>MediTrack Kenya</h4></a>
+                                        <span>Custom healthcare management system, reducing errors by 60%.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/images/portfolio-04.jpg" alt="E-commerce">
+                                <div class="hover-effect">
+                                    <div class="inner-content">
+                                        <a href="#"><h4>AgriHub KE</h4></a>
+                                        <span>E-commerce + vendor dashboard attracting 2k+ farmers within months.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/images/portfolio-01.jpg" alt="Customization Project">
+                                <div class="hover-effect">
+                                    <div class="inner-content">
+                                        <a href="#"><h4>Existing CRM Customization</h4></a>
+                                        <span>Tailored for logistics company, improved efficiency by 35%.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRICING PLANS with exact visible text: # SERVICE TRANSPARENT PRICING, QUALITY GUARANTEED -->
+    <div id="pricing" class="pricing-tables">
+        <div class="tables-left-dec"><img src="assets/images/tables-left-dec.png" alt=""></div>
+        <div class="tables-right-dec"><img src="assets/images/tables-right-dec.png" alt=""></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <span class="service-quality-badge" style="background:#0a2b44;"># SERVICE</span>
+                        <h2>TRANSPARENT PRICING, <em>QUALITY</em> <span>GUARANTEED</span></h2>
+                        <span>All plans in Kenyan Shillings (KSH) — no hidden fees</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="item first-item">
+                        <h4>Custom System Build</h4>
+                        <em>From</em>
+                        <span class="ksh-price">KSH 580,000</span>
+                        <ul>
+                            <li>Full system architecture + database</li>
+                            <li>Agile methodology & documentation</li>
+                            <li>2 months free support & training</li>
+                            <li>Scalable for enterprises & growing firms</li>
+                        </ul>
+                        <div class="main-blue-button-hover"><a href="#contact">Inquire Now</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item second-item">
+                        <h4>Website + Mobile App</h4>
+                        <em>From</em>
+                        <span class="ksh-price">KSH 350,000</span>
+                        <ul>
+                            <li>Responsive website + iOS/Android App</li>
+                            <li>Admin dashboard & API integration</li>
+                            <li>SEO optimized to attract traffic</li>
+                            <li>3 months maintenance & priority support</li>
+                        </ul>
+                        <div class="main-blue-button-hover"><a href="#contact">Get Quote</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item third-item">
+                        <h4>IT Consulting + Customization</h4>
+                        <em>Per hour</em>
+                        <span class="ksh-price">KSH 12,000 / hr</span>
+                        <ul>
+                            <li>Existing service customization & modernization</li>
+                            <li>Tech stack audit & digital roadmap</li>
+                            <li>Professional recommendations</li>
+                            <li>On-site (Eldoret) or remote sessions</li>
+                        </ul>
+                        <div class="main-blue-button-hover"><a href="#contact">Book Session</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 text-center">
+                <div class="col-12"><p style="font-weight:500;">⭐ Need a different scale? We tailor every engagement to your specific needs — good service, fair prices. ⭐</p></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TESTIMONIALS SECTION - GOOD SERVICES THAT SPEAK FOR THEMSELVES -->
+    <div id="testimonials" class="our-services section" style="padding-top: 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>GOOD SERVICES THAT <em>SPEAK FOR</em> <span>THEMSELVES</span></h2>
+                        <span>Real feedback from our partners</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="testimonial-item">
+                        <i class="fa fa-quote-left fa-2x" style="color:#0088ff;"></i>
+                        <p>"AS Technologies is a true professional system company. Their ERP system transformed our operations and the support is top-notch. They deliver good services that attract efficiency!"</p>
+                        <h5>— James M., Logistics Director</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item">
+                        <i class="fa fa-quote-left fa-2x" style="color:#0088ff;"></i>
+                        <p>"We needed to customize our existing CRM and build a mobile app. The team went above and beyond. Professional, timely, and result-driven — exactly what we were looking for."</p>
+                        <h5>— Grace W., Sales Manager</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item">
+                        <i class="fa fa-quote-left fa-2x" style="color:#0088ff;"></i>
+                        <p>"Their flagship system saved us months of development. We just customized it to our needs. The professionalism and care for our business is unmatched. Highly attractive partner!"</p>
+                        <h5>— Peter O., Startup Founder</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FREE CONSULTATION SECTION -->
+    <div id="subscribe" class="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner-content">
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1">
+                                <h2>Get a Free IT Consultation (Worth KSH 5,000) — Talk to Our Eldoret Team</h2>
+                                <p style="color:#fff;">Experience our good services from the first call. Let’s discuss how a professional system can attract more value to your enterprise.</p>
+                                <form id="subscribeForm" action="#" method="get">
+                                    <input type="text" name="website" id="website" placeholder="Your Project / System idea" required="">
+                                    <input type="text" name="email" id="subEmail" pattern="[^ @]*@[^ @]*" placeholder="Your Business Email" required="">
+                                    <button type="submit" id="form-submit" class="main-button ">Request Free Consultation</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- VIDEO SHOWCASE -->
+    <div id="video" class="our-videos section">
+        <div class="videos-left-dec"><img src="assets/images/videos-left-dec.png" alt=""></div>
+        <div class="videos-right-dec"><img src="assets/images/videos-right-dec.png" alt=""></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="naccs">
+                        <div class="grid">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <ul class="nacc">
+                                        <li class="active">
+                                            <div>
+                                                <div class="thumb">
+                                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/JynGuQx4a1Y" title="AS Enterprise System Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    <div class="overlay-effect">
+                                                        <a href="#"><h4>AS Enterprise System Walkthrough</h4></a>
+                                                        <span>Already Built — Live Dashboard</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <div class="thumb">
+                                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/RdJBSFpcO4M" title="Mobile App Development" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    <div class="overlay-effect">
+                                                        <a href="#"><h4>Mobile App Case Study</h4></a>
+                                                        <span>Fintech App built for Kenya</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <div class="thumb">
+                                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ZlfAjbQiL78" title="Customization Services" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    <div class="overlay-effect">
+                                                        <a href="#"><h4>Existing Service Customization</h4></a>
+                                                        <span>Legacy System Modernization</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="menu">
+                                        <div class="active"><div class="thumb"><img src="assets/images/video-thumb-01.png" alt=""><div class="inner-content"><h4>AS Enterprise System</h4><span>Flagship built system</span></div></div></div>
+                                        <div><div class="thumb"><img src="assets/images/video-thumb-02.png" alt=""><div class="inner-content"><h4>Mobile App</h4><span>React Native cross-platform</span></div></div></div>
+                                        <div><div class="thumb"><img src="assets/images/video-thumb-03.png" alt=""><div class="inner-content"><h4>Customization</h4><span>Adapt existing software</span></div></div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION with visible form labels (Full Name, Company Name, Email Address, Service needed) as per image -->
+    <div id="contact" class="contact-us section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="section-heading">
+                        <h2>Visit Our <em>Office in Eldoret</em> — Let's Build Your <span>System</span></h2>
+                        <div id="map">
+                            <iframe src="https://maps.google.com/maps?q=Eldoret,+Kenya&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="360px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                        </div>
+                        <div class="info">
+                            <span><i class="fa fa-phone"></i> <a href="#">+254 741 640 332<br>+254 795 009 613</a></span>
+                            <span><i class="fa fa-envelope"></i> <a href="#">info@astechnologies.co.ke<br>projects@astechnologies.co.ke</a></span>
+                            <span><i class="fa fa-map-marker"></i> Oloo Street, Eldoret, Kenya (Next to Rupa Mall)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 align-self-center">
+                    <form id="contactForm" action="#" method="get">
+                        <div class="row contact-labels">
+                            <div class="col-lg-12">
+                                <label>Full Name</label>
+                                <input type="text" name="name" id="name" placeholder="Your full name" autocomplete="on" required>
+                            </div>
+                            <div class="col-lg-12">
+                                <label>Company Name</label>
+                                <input type="text" name="surname" id="surname" placeholder="Your company / organization" autocomplete="on" required>
+                            </div>
+                            <div class="col-lg-12">
+                                <label>Email Address</label>
+                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="example@company.co.ke" required>
+                            </div>
+                            <div class="col-lg-12">
+                                <label>Service needed: System / Website / App / Consulting</label>
+                                <input type="text" name="website" id="websiteContact" placeholder="e.g., Custom ERP, E-commerce website, Mobile App" required>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset><button type="submit" class="main-button">Request a Quote (KSH)</button></fieldset>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="mt-3 text-muted">📌 Professional service, quick response, and transparent process. Let’s create something amazing.</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-dec"><img src="assets/images/contact-dec.png" alt=""></div>
+        <div class="contact-left-dec"><img src="assets/images/contact-left-dec.png" alt=""></div>
+    </div>
+
+    <div class="footer-dec"><img src="assets/images/footer-dec.png" alt=""></div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="about footer-item">
+                        <div class="logo"><a href="#" style="font-size: 26px; font-weight: bold; color: #fff;">AS<span style="color:#0088ff;">Technologies</span></a></div>
+                        <a href="#">info@astechnologies.co.ke</a>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="services footer-item">
+                        <h4>Our Expertise</h4>
+                        <ul>
+                            <li><a href="#">System Development</a></li>
+                            <li><a href="#">Website & Mobile Apps</a></li>
+                            <li><a href="#">Customizing Existing Services</a></li>
+                            <li><a href="#">IT Consulting & QA</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="community footer-item">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#portfolio">Built System Demo</a></li>
+                            <li><a href="#about">Our Story (Eldoret)</a></li>
+                            <li><a href="#services">Professional Services</a></li>
+                            <li><a href="#contact">Support & Good Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="subscribe-newsletters footer-item">
+                        <h4>Newsletter</h4>
+                        <p>Get tech insights & offers in KSH</p>
+                        <form action="#" method="get">
+                            <input type="text" name="email" id="footerEmail" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                            <button type="submit" id="form-submit" class="main-button "><i class="fa fa-paper-plane-o"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="copyright">
+                        <p>Copyright © 2025 AS Technologies Limited — Professional System & Development Company | Delivering Good Services That Attract. Headquartered in Eldoret, Kenya. <br> Flagship system already built & ready. All prices in Kenyan Shillings (KSH). Quality guaranteed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+        $(document).on("click", ".naccs .menu div", function() {
+            var numberIndex = $(this).index();
+            if (!$(this).is("active")) {
+                $(".naccs .menu div").removeClass("active");
+                $(".naccs ul li").removeClass("active");
+                $(this).addClass("active");
+                $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+                var listItemHeight = $(".naccs ul").find("li:eq(" + numberIndex + ")").innerHeight();
+                $(".naccs ul").height(listItemHeight + "px");
+            }
+        });
+    </script>
+</body>
+
+</html>
